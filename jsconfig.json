@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "es6",
+    "jsx": "react",
+    "lib": ["esnext", "dom", "webworker"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "plugins": [{
+      "name": "tslint-language-service"
+    }],
+    "paths": {
+      "*": [ "*", "src/*" ]
+    },
+    "rootDirs": [ ".", "src" ],
+    "skipLibCheck": false,
+    "sourceMap": true,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    "build",
+    "config-overrides.js",
+    "jest",
+    "scripts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
